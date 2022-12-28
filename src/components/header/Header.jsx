@@ -4,7 +4,7 @@ import styled from '@emotion/styled'
 
 const Header = ({imageSrc}) =>{
 	return(
-		<HeaderContainer>
+		<HeaderContainer id="home">
 			<ImgBg src={imageSrc}/>
 
 			<Content>
