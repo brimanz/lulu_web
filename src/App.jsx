@@ -1,10 +1,13 @@
 import React from 'react'
+import Header from './components/header/Header'
+
+import Bg from '.././public/assets/bg.jpg'
 
 
 function App(){
   return(
     <div  className="app">
-      <h2>hola mundo iniciando proyecto</h2>
+      <Header imageSrc={Bg}/>
     </div>
   );
 }  
