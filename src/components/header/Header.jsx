@@ -82,4 +82,5 @@ const ImgBg = styled.img`
 	position; relative;
 	background-size: cover;
 	width: 100%;
+	opacity: 0.8;
 `;
