@@ -52,11 +52,12 @@ const NavbarContainer = styled.div`
 	}
 
 	@media (max-width: 800px){
+		position: absolute;
 		margin: 0;	
-		top: 0;
+		top: 88%;
+		
 		height: 4rem;
 		width: 100%;
-
 		border-radius: 0;
 	} 
 `;

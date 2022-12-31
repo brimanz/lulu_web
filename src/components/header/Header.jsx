@@ -29,7 +29,7 @@ const HeaderContainer = styled.div`
 const Content = styled.div`
 	position: absolute;
 	top: 25%;
-	margin: 0 3rem;
+	margin: 0 5rem;
 `;
 const Title = styled.h2`
 	margin: 1rem 0;
@@ -40,7 +40,7 @@ const Title = styled.h2`
 	font-family: 'Oswald', sans-serif;
 	letter-spacing: 1px;
 
-	@media (max-width: 720px){
+	@media (max-width: 800px){
 		font-size: 4rem;
 	}
 `;
