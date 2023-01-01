@@ -54,9 +54,9 @@ const NavbarContainer = styled.div`
 	@media (max-width: 800px){
 		position: absolute;
 		margin: 0;	
-		top: 88%;
+		top: 84%;
 		
-		height: 4rem;
+		padding: 2rem;
 		width: 100%;
 		border-radius: 0;
 	} 
@@ -68,6 +68,12 @@ const ListItems = styled.li`
 	padding: 1rem;
 	text-align: center;
 	font-family: 'Oswald', sans-serif;
+
+	@media (max-width: 800px){
+		float: left;
+		margin: 0 1rem;
+		font-size: 1.6rem;
+	} 
 `;
 const LinksItems = styled.a`
 	text-decoration: none;
