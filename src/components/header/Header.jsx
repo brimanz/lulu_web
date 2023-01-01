@@ -8,7 +8,7 @@ const Header = ({imageSrc}) =>{
 			<ImgBg src={imageSrc}/>
 
 			<Content>
-				<Title>Confecciones Lulù</Title>
+				<Title>Feliz Año 2023!!!!</Title>
 				<Subtitle>Donde hacemos tus ideas realidad</Subtitle>
 
 				<Button>Mas sobre...</Button>
