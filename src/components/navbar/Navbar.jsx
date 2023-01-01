@@ -52,11 +52,11 @@ const NavbarContainer = styled.div`
 	}
 
 	@media (max-width: 800px){
-		position: absolute;
+		position: fixed;
 		margin: 0;	
-		top: 84%;
+		top: 88%;
 		
-		padding: 2rem;
+		height: 5rem;
 		width: 100%;
 		border-radius: 0;
 	} 
@@ -80,6 +80,7 @@ const LinksItems = styled.a`
 	color: #FF0099;
 
 	:hover{
+		color: #283c86;
 		border-bottom: 1px solid #FF0099;
 	}
 `;

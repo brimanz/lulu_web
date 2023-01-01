@@ -1,13 +1,14 @@
 import React from 'react'
 import Navbar from './components/navbar/Navbar'
 import Header from './components/header/Header'
+import Services from './components/services/Services'
 
 import Bg from '.././public/assets/bg.jpg'
 
 
 const navbarLinks = [
   {url: "#home", title: "Home"},
-  {url: "/services", title: "Servicios"},
+  {url: "#services", title: "Servicios"},
   {url: "/gallery", title: "Galería"},
   {url: "/contact", title: "Contacto"}
 ]
@@ -21,6 +22,7 @@ function App(){
       />
 
       <Header imageSrc={Bg}/>
+      <Services/>
     </div>
   );
 }  
