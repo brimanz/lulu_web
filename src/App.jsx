@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/navbar/Navbar'
 import Header from './components/header/Header'
 import Services from './components/services/Services'
+import Gallery from './components/gallery/Gallery'
 
 import Bg from '.././public/assets/bg.jpg'
 
@@ -23,6 +24,8 @@ function App(){
 
       <Header imageSrc={Bg}/>
       <Services/>
+      <Gallery/>
+
     </div>
   );
 }  

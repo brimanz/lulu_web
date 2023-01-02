@@ -11,7 +11,7 @@ const Services = () =>{
 			<ServicesContent>
 				<Service1>
 					<ServicesIcon1/>
-					<ServiceText>Confeccion de Prendas</ServiceText>
+					<ServiceText>Confección de Prendas</ServiceText>
 				</Service1>
 
 				<Service2>
@@ -29,7 +29,7 @@ export default Services
 
 
 const ServicesContainer = styled.div`
-	height: 18rem;
+	height: 24rem;
 	background-color: f5f5f5;
 	text-align: center;
 `;
@@ -39,6 +39,7 @@ const Title = styled.h2`
 	margin-top: 2rem;
 	font-size: 2.3rem;
 	font-weight: normal;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 `;
 const ServicesContent = styled.div`
 	background-color: #ffffff;
