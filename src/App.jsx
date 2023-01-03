@@ -25,7 +25,6 @@ function App(){
       <Header imageSrc={Bg}/>
       <Services/>
       <Gallery/>
-
     </div>
   );
 }  

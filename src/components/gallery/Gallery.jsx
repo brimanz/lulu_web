@@ -8,15 +8,31 @@ const Gallery = () =>{
 
 	return(
 		<GalleryContainer>
-			<Title>Observa nuestro trabajo:</Title>
-
-
-			<ButtonsContianer>
-				{genres.map(item => (
-					<Button>{item}</Button>
-				))}	
-			</ButtonsContianer>
+			<Title>Confeccionamos ropa para todos los gustos</Title>
 			
+			<ClothesContainer>
+				<ClothesItem1>
+					<p>Ropa para</p>
+					<h2>Damas</h2>
+					<img/>
+				</ClothesItem1>
+				<ClothesItem2>
+					<p>Ropa para</p>
+					<h2>Caballeros</h2>
+					<img/>
+				</ClothesItem2>
+				<ClothesItem3>
+					<p>Ropa para</p>
+					<h2>Niños</h2>
+					<img/>
+				</ClothesItem3>
+				<ClothesItem4>
+					<p>Ropa para</p>
+					<h2>Bebes</h2>
+					<img/>
+				</ClothesItem4>
+			</ClothesContainer>
+
 		</GalleryContainer>
 	);
 }
@@ -26,7 +42,7 @@ export default Gallery
 
 
 const GalleryContainer = styled.div`
-	height: 60rem;
+	height: 40rem;
 	background-color: #f5f5f5;
 	text-align: center;
 `;
@@ -34,36 +50,56 @@ const Title = styled.h2`
 	font-family: 'Oswald', sans-serif;
 	color: #FF0099;
 	margin-top: 2rem;
-	
 	font-size: 2.3rem;
 	font-weight: normal;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 `;
-const ButtonsContianer = styled.div`
-	margin-top: 2rem;
+const ClothesContainer = styled.div`
 	display: flex;
-	flex-wrap: wrap;
-	gap: 1;
-	justify-content: center;
-`;
-const Button = styled.button`
-	padding: 0.5rem;
-	margin: 1rem 1rem;
-	width: 5rem;
+	align-items: center;
+	justify-content: space-evenly;
 
-	background-color: #283c86;
-	color: #f5f5f5;
-	font-weight: bold;
-	border: none;
-	border-radius: 0.4rem;
-	cursor: pointer;
-
-	&.active{
-		background-color: #b91d73;
-	}
+	margin-top: 4rem;
+	height: 30rem;
+	width: 100%;
+`
+const ClothesItem1 = styled.div`
+	height: 20rem;
+	background-color: #ffffff;
+	border: 2px solid #FF0099;
+	width: 20%;
 
 	:hover{
-		background-color: #b91d73;
-		box-shadow: 0px 3px 2px rgba(0, 0, 0, 0.3);
+		box-shadow: 6px 4px rgba(0, 0, 0, 0.25);
+	}
+`;
+const ClothesItem2 = styled.div`
+	height: 20rem;
+	background-color: #ffffff;
+	border: 2px solid #283c86;
+	width: 20%;
+
+	:hover{
+		box-shadow: 6px 4px rgba(0, 0, 0, 0.25);
+	}
+`;
+const ClothesItem3 = styled.div`
+	height: 20rem;
+	background-color: #ffffff;
+	border: 2px solid #f37335;
+	width: 20%;
+
+	:hover{
+		box-shadow: 6px 4px rgba(0, 0, 0, 0.25);
+	}
+`;
+const ClothesItem4 = styled.div`
+	height: 20rem;
+	background-color: #ffffff;
+	border: 2px solid #FF0000;
+	width: 20%;
+
+	:hover{
+		box-shadow: 6px 4px rgba(0, 0, 0, 0.25);
 	}
 `;
