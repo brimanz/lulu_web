@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import Man from '../../.././public/assets/man.png'
 
 
 const Gallery = () =>{
@@ -68,9 +67,8 @@ const ClothesContainer = styled.div`
 `
 const ClothesItem1 = styled.div`
 	height: 20rem;
-	background-image: url(../../.././public/assets/woman.png);
+	background-image: url(../../.././public/assets/dama.jpg);
 	background-size: cover;
-	background-position: center;
 	border: 2px solid #FF0099;
 	width: 5%;
 	opacity: 0.9;
@@ -88,9 +86,8 @@ const ClothesItem1 = styled.div`
 `;
 const ClothesItem2 = styled.div`
 	height: 20rem;
-	background-image: url(../../.././public/assets/man.png);
+	background-image: url(../../.././public/assets/man.jpg);
 	background-size: cover;
-	background-position: center;
 	border: 2px solid #283c86;
 	width: 5%;
 	opacity: 0.9;
@@ -108,9 +105,8 @@ const ClothesItem2 = styled.div`
 `;
 const ClothesItem3 = styled.div`
 	height: 20rem;
-	background-image: url(../../.././public/assets/kid.png);
+	background-image: url(../../.././public/assets/kid.jpg);
 	background-size: cover;
-	background-position: center;
 	border: 2px solid #f37335;
 	width: 5%;
 	opacity: 0.9;
@@ -128,9 +124,8 @@ const ClothesItem3 = styled.div`
 `;
 const ClothesItem4 = styled.div`
 	height: 20rem;
-	background-image: url(../../.././public/assets/baby.png);
+	background-image: url(../../.././public/assets/bebebg.jpg);
 	background-size: cover;
-	background-position: center;
 	border: 2px solid #FF0000;
 	width: 5%;
 	opacity: 0.9;
