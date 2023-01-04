@@ -10,8 +10,8 @@ import Bg from '.././public/assets/bg.jpg'
 const navbarLinks = [
   {url: "#home", title: "Home"},
   {url: "#services", title: "Servicios"},
-  {url: "/gallery", title: "Galería"},
-  {url: "/contact", title: "Contacto"}
+  {url: "#confection", title: "Confección"},
+  {url: "#contact", title: "Contacto"}
 ]
 
 

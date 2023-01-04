@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import Man from '../../.././public/assets/man.png'
 
 
 const Gallery = () =>{
@@ -7,29 +8,24 @@ const Gallery = () =>{
 	const genres = ["Todo", "Dama", "Caballero", "Niños", "Bebes"];
 
 	return(
-		<GalleryContainer>
+		<GalleryContainer id="confection">
 			<Title>Confeccionamos ropa para todos los gustos</Title>
 			
 			<ClothesContainer>
 				<ClothesItem1>
-					<p>Ropa para</p>
-					<h2>Damas</h2>
-					<img/>
+					<ClothesTitle>Damas</ClothesTitle>
 				</ClothesItem1>
+
 				<ClothesItem2>
-					<p>Ropa para</p>
-					<h2>Caballeros</h2>
-					<img/>
+					<ClothesTitle>Caballeros</ClothesTitle>
 				</ClothesItem2>
+
 				<ClothesItem3>
-					<p>Ropa para</p>
-					<h2>Niños</h2>
-					<img/>
+					<ClothesTitle>Niños</ClothesTitle>
 				</ClothesItem3>
+
 				<ClothesItem4>
-					<p>Ropa para</p>
-					<h2>Bebes</h2>
-					<img/>
+					<ClothesTitle>Bebes</ClothesTitle>
 				</ClothesItem4>
 			</ClothesContainer>
 
@@ -65,41 +61,61 @@ const ClothesContainer = styled.div`
 `
 const ClothesItem1 = styled.div`
 	height: 20rem;
-	background-color: #ffffff;
+	background-image: url(../../.././public/assets/woman.png);
+	background-size: cover;
 	border: 2px solid #FF0099;
 	width: 20%;
+	opacity: 0.9;
 
 	:hover{
 		box-shadow: 6px 4px rgba(0, 0, 0, 0.25);
+		opacity: 1;
 	}
 `;
 const ClothesItem2 = styled.div`
 	height: 20rem;
-	background-color: #ffffff;
+	background-image: url(../../.././public/assets/man.png);
+	background-size: cover;
 	border: 2px solid #283c86;
 	width: 20%;
+	opacity: 0.9;
 
 	:hover{
 		box-shadow: 6px 4px rgba(0, 0, 0, 0.25);
+		opacity: 1;
 	}
 `;
 const ClothesItem3 = styled.div`
 	height: 20rem;
-	background-color: #ffffff;
+	background-image: url(../../.././public/assets/kid.png);
+	background-size: cover;
 	border: 2px solid #f37335;
 	width: 20%;
+	opacity: 0.9;
 
 	:hover{
 		box-shadow: 6px 4px rgba(0, 0, 0, 0.25);
+		opacity: 1;
 	}
 `;
 const ClothesItem4 = styled.div`
 	height: 20rem;
-	background-color: #ffffff;
+	background-image: url(../../.././public/assets/baby.png);
+	background-size: cover;
 	border: 2px solid #FF0000;
 	width: 20%;
+	opacity: 0.9;
 
 	:hover{
 		box-shadow: 6px 4px rgba(0, 0, 0, 0.25);
+		opacity: 1;
 	}
+`;
+const ClothesTitle = styled.h2`
+	font-family: 'Oswald', sans-serif;
+	color: #ffffff;
+	margin-top: 8rem;
+	
+	font-size: 3rem;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 `;
