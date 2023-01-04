@@ -11,7 +11,7 @@ const Header = ({imageSrc}) =>{
 				<Title>Confecciones Lulú</Title>
 				<Subtitle>Donde hacemos tus ideas realidad</Subtitle>
 
-				<Button>Mas sobre...</Button>
+				<Button href="#services">Mas sobre...</Button>
 			</Content>
 		</HeaderContainer>
 	);
@@ -48,24 +48,25 @@ const Subtitle = styled.p`
 	font-size: 2rem;
 	font-family: sans-serif;
 
+	margin-bottom: 4rem;
 	color: #f5f5f5;
 	text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.6);
 	letter-spacing: 0.8px;
 
-	@media (max-width: 720px){
+	@media (max-width: 800px){
 		font-size: 1.4rem;
 	}
 `;
-const Button = styled.button`
-	padding: 1rem;
-	width: 14rem;
+const Button = styled.a`
+	padding: 1.2rem;
 	border: none;
 	background: #283c86;
 
-	margin: 2rem 0;
 	font-weight: bold;
-	font-size: 1.5rem;
+	font-family: sans-serif;
+	font-size: 1.4rem;
 	color: #f5f5f5;
+	text-decoration: none;
 
 	:hover{
 		transition: 0.5s ease;
@@ -74,7 +75,7 @@ const Button = styled.button`
 		color: #FF0099;
 	}
 
-	@media (max-width: 720px){
+	@media (max-width: 800px){
 		width: 11rem;
 		font-size: 1.2rem;
 	}
