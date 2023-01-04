@@ -68,6 +68,7 @@ const Service1 = styled.div`
 
 	:hover{
 		opacity: 1;
+		transition: 0.7s ease;
 	}
 `;
 const Service2 = styled.div`
@@ -85,6 +86,7 @@ const Service2 = styled.div`
 
 	:hover{
 		opacity: 1;
+		transition: 0.7s ease;
 	}
 `
 const ServicesIcon1 = styled(GrCoatCheck)`
