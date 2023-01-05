@@ -8,7 +8,10 @@ const Gallery = () =>{
 
 	return(
 		<GalleryContainer id="confection">
-			<Title>Confeccionamos ropa para todos los gustos</Title>
+			<Title>Confeccionamos ropa para todos los gustos
+				<br/>
+				<StrongTitle>Diseños 100% #fashion</StrongTitle>
+			</Title>
 			
 			<ClothesContainer>
 				<ClothesItem1>
@@ -50,6 +53,12 @@ const Title = styled.h2`
 	font-weight: normal;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 `;
+const StrongTitle = styled.strong`
+	font-size: 2rem;
+	color: #283c86;
+	font-family: sans-serif;	
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+`;
 const ClothesContainer = styled.div`
 	display: flex;
 	align-items: center;
@@ -70,7 +79,7 @@ const ClothesItem1 = styled.div`
 	background-image: url(../../.././public/assets/dama.jpg);
 	background-size: cover;
 	border: 2px solid #FF0099;
-	width: 5%;
+	width: 8%;
 	opacity: 0.9;
 
 	:hover{
@@ -82,6 +91,10 @@ const ClothesItem1 = styled.div`
 
 	@media (max-width: 800px){
 		width: 100%;
+
+		:hover{
+			width: 100%;
+		}
 	}
 `;
 const ClothesItem2 = styled.div`
@@ -89,7 +102,7 @@ const ClothesItem2 = styled.div`
 	background-image: url(../../.././public/assets/man.jpg);
 	background-size: cover;
 	border: 2px solid #283c86;
-	width: 5%;
+	width: 8%;
 	opacity: 0.9;
 
 	:hover{
@@ -101,6 +114,10 @@ const ClothesItem2 = styled.div`
 
 	@media (max-width: 800px){
 		width: 100%;
+
+		:hover{
+			width: 100%;
+		}
 	}
 `;
 const ClothesItem3 = styled.div`
@@ -108,7 +125,7 @@ const ClothesItem3 = styled.div`
 	background-image: url(../../.././public/assets/kid.jpg);
 	background-size: cover;
 	border: 2px solid #f37335;
-	width: 5%;
+	width: 8%;
 	opacity: 0.9;
 
 	:hover{
@@ -120,6 +137,10 @@ const ClothesItem3 = styled.div`
 
 	@media (max-width: 800px){
 		width: 100%;
+
+		:hover{
+			width: 100%;
+		}
 	}
 `;
 const ClothesItem4 = styled.div`
@@ -127,7 +148,7 @@ const ClothesItem4 = styled.div`
 	background-image: url(../../.././public/assets/bebebg.jpg);
 	background-size: cover;
 	border: 2px solid #FF0000;
-	width: 5%;
+	width: 8%;
 	opacity: 0.9;
 
 	:hover{
@@ -139,6 +160,10 @@ const ClothesItem4 = styled.div`
 
 	@media (max-width: 800px){
 		width: 100%;
+
+		:hover{
+			width: 100%;
+		}
 	}
 `;
 const ClothesTitle = styled.h2`

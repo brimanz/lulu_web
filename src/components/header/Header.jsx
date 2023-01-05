@@ -36,7 +36,7 @@ const Title = styled.h2`
 	color: #FF0099;
 	text-shadow: 1px 3px 1px rgba(255, 255, 255, 0.7);
 	
-	font-size: 6.3rem;
+	font-size: 7.4rem;
 	font-family: 'Oswald', sans-serif;
 	letter-spacing: 1px;
 
