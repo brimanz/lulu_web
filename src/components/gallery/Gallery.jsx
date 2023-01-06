@@ -43,12 +43,13 @@ const GalleryContainer = styled.div`
 	height: 40rem;
 	background-color: #f5f5f5;
 	text-align: center;
+	margin-bottom: 6rem;
 `;
 const Title = styled.h2`
 	font-family: 'Oswald', sans-serif;
 	color: #FF0099;
 	margin-top: 2rem;
-	font-size: 2.3rem;
+	font-size: 4.3rem;
 
 	font-weight: normal;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);

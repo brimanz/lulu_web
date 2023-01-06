@@ -12,6 +12,7 @@ const navbarLinks = [
   {url: "#home", title: "Home"},
   {url: "#services", title: "Servicios"},
   {url: "#confection", title: "Confección"},
+  {url: "#works", title: "Nuestro Trabajo"},
   {url: "#contact", title: "Contacto"}
 ]
 

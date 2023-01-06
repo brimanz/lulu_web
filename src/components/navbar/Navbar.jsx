@@ -39,16 +39,17 @@ const NavbarContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 16rem;
+	height: 20.5rem;
 	background-color: #f5f5f5;
 	padding: 0.5rem;
 	border-radius: 0.5rem;
-	margin: 0 1rem;
+	margin: 0 2rem;
 	opacity: 0.8;
 	z-index: 5;
+	border-left: 5px solid #283c86;
 
 	:hover{
-		opacity: 0.6;	
+		border-left: 5px solid #FF0099;	
 	}
 
 	@media (max-width: 800px){
@@ -78,9 +79,9 @@ const ListItems = styled.li`
 const LinksItems = styled.a`
 	text-decoration: none;
 	color: #FF0099;
+	font-size: 1.4rem;
 
 	:hover{
-		color: #283c86;
 		border-bottom: 1px solid #FF0099;
 	}
 `;

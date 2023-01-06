@@ -37,7 +37,7 @@ const Title = styled.h2`
 	font-family: 'Oswald', sans-serif;
 	color: #FF0099;
 	margin-top: 2rem;
-	font-size: 2.3rem;
+	font-size: 4.3rem;
 	font-weight: normal;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 `;
