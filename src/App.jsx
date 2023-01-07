@@ -5,7 +5,7 @@ import Services from './components/services/Services'
 import Gallery from './components/gallery/Gallery'
 import Works from './components/works/Works'
 
-import Bg from './components/assets/bg.jpg'
+import Bg from '../public/assets/bg.jpg'
 
 const navbarLinks = [
   {url: "#home", title: "Home"},

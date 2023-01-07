@@ -75,6 +75,7 @@ const ClothesContainer = styled.div`
 const ClothesItem1 = styled.div`
 	height: 20rem;
 	border: 2px solid #FF0099;
+	background-size: cover;
 	background-image: url(".././assets/dama.jpg");
 	width: 8%;
 	opacity: 0.9;
@@ -97,6 +98,7 @@ const ClothesItem1 = styled.div`
 const ClothesItem2 = styled.div`
 	height: 20rem;
 	background-size: cover;
+	background-image: url(".././assets/man.jpg");
 	border: 2px solid #283c86;
 	width: 8%;
 	opacity: 0.9;
@@ -119,6 +121,7 @@ const ClothesItem2 = styled.div`
 const ClothesItem3 = styled.div`
 	height: 20rem;
 	background-size: cover;
+	background-image: url(".././assets/kid.jpg");
 	border: 2px solid #f37335;
 	width: 8%;
 	opacity: 0.9;
@@ -141,6 +144,7 @@ const ClothesItem3 = styled.div`
 const ClothesItem4 = styled.div`
 	height: 20rem;
 	background-size: cover;
+	background-image: url(".././assets/bebebg.jpg");
 	border: 2px solid #FF0000;
 	width: 8%;
 	opacity: 0.9;

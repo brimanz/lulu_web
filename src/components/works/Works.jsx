@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {bebe, bebe2, bebe3, bebe4, bebe5}  from '.././assets'
+import {bebe, bebe2, bebe3, bebe4, bebe5}  from '../../../public/assets'
 
 
 const Works = () =>{
