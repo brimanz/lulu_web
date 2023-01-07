@@ -1,23 +1,25 @@
 import React from 'react'
 import styled from '@emotion/styled'
-import {GrCoatCheck, GrCut} from "react-icons/gr";
+import {AiOutlineMail, AiOutlineWhatsApp, AiOutlineInstagram} from "react-icons/ai";
 
 
 const Services = () =>{
 	return(
-		<ServicesContainer id="services">
-			<Title>Ofrecemos los mejores servicios en:</Title>
+		<ServicesContainer id="contact">
+			<Title>Contáctanos a través de:</Title>
 
 			<ServicesContent>
 				<Service1>
 					<ServicesIcon1/>
-					<ServiceText>Confección de Prendas</ServiceText>
 				</Service1>
 
 				<Service2>
 					<ServicesIcon2/>
-					<ServiceText>Arreglos de Ropa</ServiceText>
 				</Service2>
+
+				<Service3>
+					<ServicesIcon3/>
+				</Service3>
 
 			</ServicesContent>
 		</ServicesContainer>
@@ -34,8 +36,7 @@ const ServicesContainer = styled.div`
 	text-align: center;
 
 	@media (max-width: 800px){
-		margin-top: 10rem;
-		margin-bottom: 20rem;
+		margin-top: 50rem;
 	} 
 `;
 const Title = styled.h2`
@@ -60,10 +61,9 @@ const ServicesContent = styled.div`
 `;
 const Service1 = styled.div`
 	margin: 0 2rem;
-	background-color: #b91d73;
+	background-color: #f37335;
 	height: 15rem;
 	width: 15rem;
-	color: #f5f5f5;
 
 	display: flex;
 	flex-direction: column;
@@ -78,10 +78,9 @@ const Service1 = styled.div`
 `;
 const Service2 = styled.div`
 	margin: 0 2rem;
-	background-color: #283c86;
+	background-color: #45B649;
 	height: 15rem;
 	width: 15rem;
-	color: #f5f5f5;
 
 	display: flex;
 	flex-direction: column;
@@ -94,18 +93,35 @@ const Service2 = styled.div`
 		transition: 0.7s ease;
 	}
 `
-const ServicesIcon1 = styled(GrCoatCheck)`
+const Service3 = styled.div`
+	margin: 0 2rem;
+	background-color: #FF0099;
+	height: 15rem;
+	width: 15rem;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	opacity: 0.8;
+
+	:hover{
+		opacity: 1;
+		transition: 0.7s ease;
+	}
+`
+const ServicesIcon1 = styled(AiOutlineMail)`
 	font-size: 6rem;
 	opacity: 0.4;
 	padding: 2rem 0;
 `;
-const ServicesIcon2 = styled(GrCut)`
+const ServicesIcon2 = styled(AiOutlineWhatsApp)`
 	font-size: 6rem;
 	opacity: 0.4;
 	padding: 2rem 0;
 `;
-const ServiceText = styled.p`
-	color: #f5f5f5;
-	font-family: sans-serif;
-	font-weight: bold;
+const ServicesIcon3 = styled(AiOutlineInstagram)`
+	font-size: 6rem;
+	opacity: 0.4;
+	padding: 2rem 0;
 `;

@@ -145,7 +145,7 @@ const ClothesItem4 = styled.div`
 	height: 20rem;
 	background-size: cover;
 	background-image: url(".././assets/bebebg.jpg");
-	border: 2px solid #FF0000;
+	border: 2px solid #45B649;
 	width: 8%;
 	opacity: 0.9;
 

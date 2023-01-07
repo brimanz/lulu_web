@@ -39,7 +39,7 @@ const NavbarContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	height: 20.5rem;
+	height: 17rem;
 	background-color: #f5f5f5;
 	padding: 0.5rem;
 	border-radius: 0.5rem;
