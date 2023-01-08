@@ -33,9 +33,18 @@ const ServicesContainer = styled.div`
 	background-color: f5f5f5;
 	text-align: center;
 
-	@media (max-width: 800px){
+	@media (max-width: 1100px){
 		margin-top: 10rem;
-		margin-bottom: 20rem;
+		margin-bottom: 5rem;
+	}
+
+	@media (max-width: 780px){
+		margin-top: 9rem;
+		margin-bottom: 13rem;
+	} 
+
+	@media (max-width: 517px){
+		margin-top: 4rem;
 	} 
 `;
 const Title = styled.h2`
@@ -45,6 +54,14 @@ const Title = styled.h2`
 	font-size: 4.3rem;
 	font-weight: normal;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+
+	@media (max-width: 780px){
+		font-size: 4rem;
+	} 
+
+	@media (max-width: 517px){
+		font-size: 2.8rem;
+	} 
 `;
 const ServicesContent = styled.div`
 	background-color: #ffffff;
@@ -57,6 +74,15 @@ const ServicesContent = styled.div`
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+
+	@media (max-width: 780px){
+		height: 10rem;	
+		margin-top: 6.7rem;
+	} 
+
+	@media (max-width: 517px){
+		height: 7rem;		
+	} 
 `;
 const Service1 = styled.div`
 	margin: 0 2rem;
@@ -74,6 +100,20 @@ const Service1 = styled.div`
 	:hover{
 		opacity: 1;
 		transition: 0.7s ease;
+	}
+
+	@media (max-width: 1100px){
+		width: 13rem;
+		height: 13rem;
+	}
+
+	@media (max-width: 780px){
+		width: 10rem;
+		height: 10rem;
+	}
+
+	@media (max-width: 517px){
+		height: 7rem;		
 	}
 `;
 const Service2 = styled.div`
@@ -93,19 +133,41 @@ const Service2 = styled.div`
 		opacity: 1;
 		transition: 0.7s ease;
 	}
+
+	@media (max-width: 1100px){
+		width: 13rem;
+		height: 13rem;
+	}
+
+	@media (max-width: 780px){
+		width: 10rem;
+		height: 10rem;
+	}
+
+	@media (max-width: 517px){
+		height: 7rem;		
+	}
 `
 const ServicesIcon1 = styled(GrCoatCheck)`
 	font-size: 6rem;
 	opacity: 0.4;
-	padding: 2rem 0;
+	padding: 1rem 0;
 `;
 const ServicesIcon2 = styled(GrCut)`
 	font-size: 6rem;
 	opacity: 0.4;
-	padding: 2rem 0;
+	padding: 1rem 0;
 `;
 const ServiceText = styled.p`
 	color: #f5f5f5;
 	font-family: sans-serif;
 	font-weight: bold;
+
+	@media (max-width: 780px){
+		padding: 0.3 2rem;		
+	}
+
+	@media (max-width: 517px){
+		height: 4rem;		
+	}
 `;
