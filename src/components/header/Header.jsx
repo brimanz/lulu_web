@@ -8,7 +8,10 @@ const Header = ({imageSrc}) =>{
 			<ImgBg src={imageSrc}/>
 
 			<Content>
-				<Title>Confecciones Lulú</Title>
+				<Title>
+					<Brand>Lulú </Brand> 
+					Confecciones
+				</Title>
 				<Subtitle>Donde hacemos tus ideas realidad</Subtitle>
 
 				<Button href="#services">Mas sobre...</Button>
@@ -31,12 +34,19 @@ const Content = styled.div`
 	top: 25%;
 	margin: 0 5rem;
 `;
+const Brand = styled.span`
+	font-family: 'Dancing Script', cursive;
+	font-size: 8.8rem;
+	color: #ED213A;
+	font-weight: bold;
+`;
 const Title = styled.h2`
 	margin: 1rem 0;
 	color: #FF0099;
+	font-weight: normal;
 	text-shadow: 1px 3px 1px rgba(255, 255, 255, 0.7);
 	
-	font-size: 7.4rem;
+	font-size: 6.8rem;
 	font-family: 'Oswald', sans-serif;
 	letter-spacing: 1px;
 

@@ -10,11 +10,15 @@ const Services = () =>{
 
 			<ServicesContent>
 				<Service1>
-					<ServicesIcon1/>
+					<LinkIcon href="mailto:brimanz2014@gmail.com">
+						<ServicesIcon1/>
+					</LinkIcon>
 				</Service1>
 
 				<Service2>
-					<ServicesIcon2/>
+					<LinkIcon href="https://wa.link/u3duye">
+						<ServicesIcon2/>
+					</LinkIcon>
 				</Service2>
 
 				<Service3>
@@ -48,7 +52,6 @@ const Title = styled.h2`
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
 `;
 const ServicesContent = styled.div`
-	background-color: #ffffff;
 	margin-top: 4rem;
 	background: #C9D6FF;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to left, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
@@ -110,10 +113,15 @@ const Service3 = styled.div`
 		transition: 0.7s ease;
 	}
 `
+const LinkIcon = styled.a`
+	text-decoration: none;
+	color: #f5f5f5f5;
+`;
 const ServicesIcon1 = styled(AiOutlineMail)`
 	font-size: 6rem;
 	opacity: 0.4;
 	padding: 2rem 0;
+	cursor: pointer;
 `;
 const ServicesIcon2 = styled(AiOutlineWhatsApp)`
 	font-size: 6rem;
