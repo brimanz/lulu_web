@@ -22,7 +22,9 @@ const Services = () =>{
 				</Service2>
 
 				<Service3>
-					<ServicesIcon3/>
+					<LinkIcon href="#">
+						<ServicesIcon3/>
+					</LinkIcon>
 				</Service3>
 
 			</ServicesContent>
@@ -39,8 +41,16 @@ const ServicesContainer = styled.div`
 	background-color: f5f5f5;
 	text-align: center;
 
-	@media (max-width: 800px){
+	@media (max-width: 1100px){
+		margin-top: 15rem;
+	}
+
+	@media (max-width: 780px){
 		margin-top: 50rem;
+	}
+
+	@media (max-width: 517px){
+		margin-top: 43rem;
 	} 
 `;
 const Title = styled.h2`
@@ -50,6 +60,14 @@ const Title = styled.h2`
 	font-size: 4.3rem;
 	font-weight: normal;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+
+	@media (max-width: 780px){
+		font-size: 4rem;
+	} 
+
+	@media (max-width: 517px){
+		font-size: 2.8rem;
+	} 
 `;
 const ServicesContent = styled.div`
 	margin-top: 4rem;
@@ -58,9 +76,24 @@ const ServicesContent = styled.div`
 	background: linear-gradient(to left, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	width: 100%;
+	height: 15rem;
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
+
+	@media (max-width: 1100px){
+		height: 13rem;
+		margin-top: 4.6rem;
+	}
+
+	@media (max-width: 780px){
+		height: 10rem;	
+		margin-top: 8.7rem;
+	} 
+
+	@media (max-width: 517px){
+		height: 7rem;		
+	} 
 `;
 const Service1 = styled.div`
 	margin: 0 2rem;
@@ -77,6 +110,20 @@ const Service1 = styled.div`
 	:hover{
 		opacity: 1;
 		transition: 0.7s ease;
+	}
+
+	@media (max-width: 1100px){
+		width: 13rem;
+		height: 13rem;
+	}
+
+	@media (max-width: 780px){
+		width: 10rem;
+		height: 10rem;
+	}
+
+	@media (max-width: 517px){
+		height: 7rem;		
 	}
 `;
 const Service2 = styled.div`
@@ -95,6 +142,20 @@ const Service2 = styled.div`
 		opacity: 1;
 		transition: 0.7s ease;
 	}
+
+	@media (max-width: 1100px){
+		width: 13rem;
+		height: 13rem;
+	}
+
+	@media (max-width: 780px){
+		width: 10rem;
+		height: 10rem;
+	}
+
+	@media (max-width: 517px){
+		height: 7rem;		
+	}
 `
 const Service3 = styled.div`
 	margin: 0 2rem;
@@ -112,6 +173,20 @@ const Service3 = styled.div`
 		opacity: 1;
 		transition: 0.7s ease;
 	}
+
+	@media (max-width: 1100px){
+		width: 13rem;
+		height: 13rem;
+	}
+
+	@media (max-width: 780px){
+		width: 10rem;
+		height: 10rem;
+	}
+
+	@media (max-width: 517px){
+		height: 7rem;		
+	}
 `
 const LinkIcon = styled.a`
 	text-decoration: none;
@@ -122,14 +197,26 @@ const ServicesIcon1 = styled(AiOutlineMail)`
 	opacity: 0.4;
 	padding: 2rem 0;
 	cursor: pointer;
+
+	@media (max-width: 517px){
+		height: 4rem;		
+	}
 `;
 const ServicesIcon2 = styled(AiOutlineWhatsApp)`
 	font-size: 6rem;
 	opacity: 0.4;
 	padding: 2rem 0;
+
+	@media (max-width: 517px){
+		height: 4rem;		
+	}
 `;
 const ServicesIcon3 = styled(AiOutlineInstagram)`
 	font-size: 6rem;
 	opacity: 0.4;
 	padding: 2rem 0;
+
+	@media (max-width: 517px){
+		height: 4rem;		
+	}
 `;

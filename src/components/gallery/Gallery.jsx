@@ -50,12 +50,24 @@ const Title = styled.h2`
 
 	font-weight: normal;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+
+	@media (max-width: 780px){
+		font-size: 4rem;
+	} 
+
+	@media (max-width: 517px){
+		font-size: 2.8rem;
+	} 
 `;
 const StrongTitle = styled.strong`
 	font-size: 2rem;
 	color: #283c86;
 	font-family: sans-serif;	
 	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+
+	@media (max-width: 517px){
+		font-size: 1.4rem;
+	} 
 `;
 const ClothesContainer = styled.div`
 	display: flex;
@@ -66,7 +78,7 @@ const ClothesContainer = styled.div`
 	height: 30rem;
 	width: 100%;
 
-	@media (max-width: 800px){
+	@media (max-width: 780px){
 		display: flex;
 		flex-direction: column;
 		margin-top: 20rem;
@@ -87,7 +99,7 @@ const ClothesItem1 = styled.div`
 		transition: 0.5s ease;
 	}
 
-	@media (max-width: 800px){
+	@media (max-width: 780px){
 		width: 100%;
 
 		:hover{
@@ -110,7 +122,7 @@ const ClothesItem2 = styled.div`
 		transition: 0.5s ease;
 	}
 
-	@media (max-width: 800px){
+	@media (max-width: 780px){
 		width: 100%;
 
 		:hover{
@@ -133,7 +145,7 @@ const ClothesItem3 = styled.div`
 		transition: 0.5s ease;
 	}
 
-	@media (max-width: 800px){
+	@media (max-width: 780px){
 		width: 100%;
 
 		:hover{
@@ -156,7 +168,7 @@ const ClothesItem4 = styled.div`
 		transition: 0.5s ease;
 	}
 
-	@media (max-width: 800px){
+	@media (max-width: 780px){
 		width: 100%;
 
 		:hover{
@@ -172,4 +184,13 @@ const ClothesTitle = styled.h2`
 	writing-mode: vertical-lr;
 	font-size: 3rem;
 	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+
+	@media (max-width: 780px){
+		font-size: 2.6rem;
+		margin-bottom: 2rem;
+	} 
+
+	@media (max-width: 517px){
+		font-size: 1.4rem;
+	} 
 `;
