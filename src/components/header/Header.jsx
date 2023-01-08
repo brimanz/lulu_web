@@ -33,12 +33,29 @@ const Content = styled.div`
 	position: absolute;
 	top: 25%;
 	margin: 0 5rem;
+
+	@media (max-width: 517px){
+		text-align: center;
+		margin-top: 0;
+	}
 `;
 const Brand = styled.span`
 	font-family: 'Dancing Script', cursive;
 	font-size: 8.8rem;
 	color: #ED213A;
 	font-weight: bold;
+
+	@media (max-width: 1100px){
+		font-size: 6.7rem;
+	}
+
+	@media (max-width: 780px){
+		font-size: 6rem;
+	}
+
+	@media (max-width: 517px){
+		font-size: 5rem;
+	}
 `;
 const Title = styled.h2`
 	margin: 1rem 0;
@@ -50,8 +67,16 @@ const Title = styled.h2`
 	font-family: 'Oswald', sans-serif;
 	letter-spacing: 1px;
 
-	@media (max-width: 800px){
-		font-size: 4rem;
+	@media (max-width: 1100px){
+		font-size: 5.7rem;
+	}
+
+	@media (max-width: 780px){
+		font-size: 5rem;
+	}
+
+	@media (max-width: 517px){
+		font-size: 4.5rem;
 	}
 `;
 const Subtitle = styled.p`
@@ -63,8 +88,16 @@ const Subtitle = styled.p`
 	text-shadow: 1px 3px 1px rgba(0, 0, 0, 0.6);
 	letter-spacing: 0.8px;
 
-	@media (max-width: 800px){
-		font-size: 1.4rem;
+	@media (max-width: 1100px){
+		font-size: 2rem;
+	}
+
+	@media (max-width: 780px){
+		font-size: 1.5rem;
+	}
+
+	@media (max-width: 517px){
+		font-size: 1.3rem;
 	}
 `;
 const Button = styled.a`
@@ -85,7 +118,7 @@ const Button = styled.a`
 		color: #FF0099;
 	}
 
-	@media (max-width: 800px){
+	@media (max-width: 780px){
 		width: 11rem;
 		font-size: 1.2rem;
 	}
@@ -93,6 +126,7 @@ const Button = styled.a`
 const ImgBg = styled.img`
 	position; relative;
 	background-size: cover;
+	background-position: center;
 	width: 100%;
 	opacity: 0.8;
 `;

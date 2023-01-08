@@ -52,14 +52,22 @@ const NavbarContainer = styled.div`
 		border-left: 5px solid #FF0099;	
 	}
 
-	@media (max-width: 800px){
+	@media (max-width: 780px){
 		position: fixed;
 		margin: 0;	
 		top: 88%;
 		
-		height: 5rem;
+		height: 4rem;
 		width: 100%;
 		border-radius: 0;
+		margin-top: 1.6rem;
+	} 
+
+	@media (max-width: 517px){
+		height: 3.5rem;
+		width: 100%;
+		border-radius: 0;
+		margin-top: 2.2rem;
 	} 
 `;
 const ListElements = styled.ul`
@@ -70,10 +78,16 @@ const ListItems = styled.li`
 	text-align: center;
 	font-family: 'Oswald', sans-serif;
 
-	@media (max-width: 800px){
+	@media (max-width: 780px){
 		float: left;
 		margin: 0 1rem;
-		font-size: 1.6rem;
+		font-size: 2rem;
+		margin-left: 2rem;
+	} 
+
+	@media (max-width: 517px){
+		margin-left: 1rem; 
+		margin: -1rem 1rem;
 	} 
 `;
 const LinksItems = styled.a`
@@ -84,4 +98,13 @@ const LinksItems = styled.a`
 	:hover{
 		border-bottom: 1px solid #FF0099;
 	}
+
+	@media (max-width: 517px){
+		font-size: 1.2rem;
+
+		:hover{
+			font-size: 1.25rem;		
+		}
+	} 
+	
 `;
