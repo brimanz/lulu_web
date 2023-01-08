@@ -36,7 +36,7 @@ const Content = styled.div`
 
 	@media (max-width: 517px){
 		text-align: center;
-		margin-top: 0;
+		margin: 0;
 	}
 `;
 const Brand = styled.span`

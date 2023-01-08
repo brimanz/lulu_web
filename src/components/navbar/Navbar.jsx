@@ -86,8 +86,7 @@ const ListItems = styled.li`
 	} 
 
 	@media (max-width: 517px){
-		margin-left: 1rem; 
-		margin: -1rem 1rem;
+		margin: -1rem 0;
 	} 
 `;
 const LinksItems = styled.a`
@@ -100,10 +99,10 @@ const LinksItems = styled.a`
 	}
 
 	@media (max-width: 517px){
-		font-size: 1.2rem;
+		font-size: 1.1rem;
 
 		:hover{
-			font-size: 1.25rem;		
+			font-size: 1.14rem;		
 		}
 	} 
 	
