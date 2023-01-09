@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from '@emotion/styled'
+import { AiFillHome, AiFillSkin, AiFillPhone, AiFillShopping } from "react-icons/ai";
 
 
 const Navbar = ({navbarLinks})=>{
@@ -22,6 +23,13 @@ const Navbar = ({navbarLinks})=>{
 					); 	
 				})}
 			</ListElements>
+
+			{/*movile version*/}
+			<a href="">
+				<span>h</span>
+			</a>
+
+
 		</NavbarContainer>
 	)
 }
@@ -39,6 +47,7 @@ const NavbarContainer = styled.div`
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	justify-content: center;
 	height: 17rem;
 	background-color: #f5f5f5;
 	padding: 0.5rem;
@@ -55,19 +64,21 @@ const NavbarContainer = styled.div`
 	@media (max-width: 780px){
 		position: fixed;
 		margin: 0;	
-		top: 88%;
+		top: 0;
 		
 		height: 4rem;
 		width: 100%;
 		border-radius: 0;
-		margin-top: 1.6rem;
 	} 
 
 	@media (max-width: 517px){
-		height: 3.5rem;
 		width: 100%;
 		border-radius: 0;
-		margin-top: 2.2rem;
+		border: none;
+	}
+
+	:hover{
+		border-left: none;	
 	} 
 `;
 const ListElements = styled.ul`
@@ -88,6 +99,11 @@ const ListItems = styled.li`
 	@media (max-width: 517px){
 		margin: -1rem 0;
 	} 
+
+	@media (max-width: 320px){
+		margin: -2rem 0;
+		margin-right: 0.6rem;
+	} 
 `;
 const LinksItems = styled.a`
 	text-decoration: none;
@@ -100,9 +116,10 @@ const LinksItems = styled.a`
 
 	@media (max-width: 517px){
 		font-size: 1.1rem;
+		display: none;
 
 		:hover{
-			font-size: 1.14rem;		
+			font-size: 1.14rem;
 		}
 	} 
 	

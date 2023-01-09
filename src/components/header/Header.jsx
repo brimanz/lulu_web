@@ -54,7 +54,7 @@ const Brand = styled.span`
 	}
 
 	@media (max-width: 517px){
-		font-size: 5rem;
+		font-size: 4.5rem;
 	}
 `;
 const Title = styled.h2`
@@ -76,7 +76,8 @@ const Title = styled.h2`
 	}
 
 	@media (max-width: 517px){
-		font-size: 4.5rem;
+		font-size: 3.3rem;
+		margin-right: 1.3rem;
 	}
 `;
 const Subtitle = styled.p`
@@ -97,7 +98,9 @@ const Subtitle = styled.p`
 	}
 
 	@media (max-width: 517px){
-		font-size: 1.3rem;
+		font-size: 1rem;
+		letter-spacing: 0.5px;
+		margin-right: 1.3rem;
 	}
 `;
 const Button = styled.a`
@@ -121,6 +124,11 @@ const Button = styled.a`
 	@media (max-width: 780px){
 		width: 11rem;
 		font-size: 1.2rem;
+	}
+
+	@media (max-width: 517px){
+		font-size: 1rem;
+		padding: 1rem;
 	}
 `;
 const ImgBg = styled.img`
