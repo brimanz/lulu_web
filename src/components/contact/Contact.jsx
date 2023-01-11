@@ -193,7 +193,7 @@ const LinkIcon = styled.a`
 	color: #f5f5f5f5;
 `;
 const ServicesIcon1 = styled(AiOutlineMail)`
-	font-size: 6rem;
+	font-size: 10rem;
 	opacity: 0.4;
 	padding: 2rem 0;
 	cursor: pointer;
@@ -203,7 +203,7 @@ const ServicesIcon1 = styled(AiOutlineMail)`
 	}
 `;
 const ServicesIcon2 = styled(AiOutlineWhatsApp)`
-	font-size: 6rem;
+	font-size: 10rem;
 	opacity: 0.4;
 	padding: 2rem 0;
 
@@ -212,7 +212,7 @@ const ServicesIcon2 = styled(AiOutlineWhatsApp)`
 	}
 `;
 const ServicesIcon3 = styled(AiOutlineInstagram)`
-	font-size: 6rem;
+	font-size: 10rem;
 	opacity: 0.4;
 	padding: 2rem 0;
 
