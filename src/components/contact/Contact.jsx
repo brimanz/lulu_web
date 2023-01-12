@@ -16,7 +16,7 @@ const Services = () =>{
 				</Service1>
 
 				<Service2>
-					<LinkIcon href="https://wa.link/u3duye">
+					<LinkIcon href="https://wa.me/+5804247319070">
 						<ServicesIcon2/>
 					</LinkIcon>
 				</Service2>
