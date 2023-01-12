@@ -46,6 +46,10 @@ const ServicesContainer = styled.div`
 	@media (max-width: 517px){
 		margin-top: 4rem;
 	} 
+
+	@media (max-width: 320px){
+		margin-bottom: 6rem;
+	}
 `;
 const Title = styled.h2`
 	font-family: 'Oswald', sans-serif;
@@ -61,6 +65,10 @@ const Title = styled.h2`
 
 	@media (max-width: 517px){
 		font-size: 2.8rem;
+	} 
+
+	@media (max-width: 320px){
+		font-size: 1.8rem;
 	} 
 `;
 const ServicesContent = styled.div`
@@ -170,4 +178,8 @@ const ServiceText = styled.p`
 	@media (max-width: 517px){
 		height: 4rem;		
 	}
+
+	@media (max-width: 320px){
+		font-size: 0.8rem;
+	} 
 `;

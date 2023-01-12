@@ -9,23 +9,23 @@ const Services = () =>{
 			<Title>Contáctanos a través de:</Title>
 
 			<ServicesContent>
-				<Service1>
+				<div>
 					<LinkIcon href="mailto:brimanz2014@gmail.com">
 						<ServicesIcon1/>
 					</LinkIcon>
-				</Service1>
+				</div>
 
-				<Service2>
+				<div>
 					<LinkIcon href="https://wa.me/+5804247319070">
 						<ServicesIcon2/>
 					</LinkIcon>
-				</Service2>
+				</div>
 
-				<Service3>
+				<div>
 					<LinkIcon href="#">
 						<ServicesIcon3/>
 					</LinkIcon>
-				</Service3>
+				</div>
 
 			</ServicesContent>
 		</ServicesContainer>
@@ -52,6 +52,10 @@ const ServicesContainer = styled.div`
 	@media (max-width: 517px){
 		margin-top: 43rem;
 	} 
+
+	@media (max-width: 320px){
+		margin-top: 34rem;
+	} 
 `;
 const Title = styled.h2`
 	font-family: 'Oswald', sans-serif;
@@ -68,6 +72,10 @@ const Title = styled.h2`
 	@media (max-width: 517px){
 		font-size: 2.8rem;
 	} 
+
+	@media (max-width: 320px){
+		font-size: 1.8rem;
+	} 
 `;
 const ServicesContent = styled.div`
 	margin-top: 4rem;
@@ -76,147 +84,70 @@ const ServicesContent = styled.div`
 	background: linear-gradient(to left, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	width: 100%;
-	height: 15rem;
+	height: 100%;
 	display: flex;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: center;
 
 	@media (max-width: 1100px){
-		height: 13rem;
 		margin-top: 4.6rem;
 	}
 
 	@media (max-width: 780px){
-		height: 10rem;	
 		margin-top: 8.7rem;
 	} 
-
-	@media (max-width: 517px){
-		height: 7rem;		
-	} 
 `;
-const Service1 = styled.div`
-	margin: 0 2rem;
-	background-color: #f37335;
-	height: 15rem;
-	width: 15rem;
-
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	opacity: 0.8;
-
-	:hover{
-		opacity: 1;
-		transition: 0.7s ease;
-	}
-
-	@media (max-width: 1100px){
-		width: 13rem;
-		height: 13rem;
-	}
-
-	@media (max-width: 780px){
-		width: 10rem;
-		height: 10rem;
-	}
-
-	@media (max-width: 517px){
-		height: 7rem;		
-	}
-`;
-const Service2 = styled.div`
-	margin: 0 2rem;
-	background-color: #45B649;
-	height: 15rem;
-	width: 15rem;
-
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	opacity: 0.8;
-
-	:hover{
-		opacity: 1;
-		transition: 0.7s ease;
-	}
-
-	@media (max-width: 1100px){
-		width: 13rem;
-		height: 13rem;
-	}
-
-	@media (max-width: 780px){
-		width: 10rem;
-		height: 10rem;
-	}
-
-	@media (max-width: 517px){
-		height: 7rem;		
-	}
-`
-const Service3 = styled.div`
-	margin: 0 2rem;
-	background-color: #FF0099;
-	height: 15rem;
-	width: 15rem;
-
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	opacity: 0.8;
-
-	:hover{
-		opacity: 1;
-		transition: 0.7s ease;
-	}
-
-	@media (max-width: 1100px){
-		width: 13rem;
-		height: 13rem;
-	}
-
-	@media (max-width: 780px){
-		width: 10rem;
-		height: 10rem;
-	}
-
-	@media (max-width: 517px){
-		height: 7rem;		
-	}
-`
 const LinkIcon = styled.a`
 	text-decoration: none;
-	color: #f5f5f5f5;
+	color: #FF0099;
+	margin: 1rem 4rem;
+
+	:hover{
+		color: #283c86;		
+	}
+
+	@media (max-width: 517px){
+		margin: 1rem 1rem;
+	} 
+
+	@media (max-width: 320px){
+		margin: 0 0.5rem;	
+	}
 `;
 const ServicesIcon1 = styled(AiOutlineMail)`
-	font-size: 10rem;
+	font-size: 5rem;
 	opacity: 0.4;
-	padding: 2rem 0;
 	cursor: pointer;
 
 	@media (max-width: 517px){
-		height: 4rem;		
+		font-size: 4rem;		
+	}
+
+	@media (max-width: 320px){
+		height: 3rem;		
 	}
 `;
 const ServicesIcon2 = styled(AiOutlineWhatsApp)`
-	font-size: 10rem;
+	font-size: 5rem;
 	opacity: 0.4;
-	padding: 2rem 0;
 
 	@media (max-width: 517px){
 		height: 4rem;		
 	}
+
+	@media (max-width: 320px){
+		height: 3rem;		
+	}
 `;
 const ServicesIcon3 = styled(AiOutlineInstagram)`
-	font-size: 10rem;
+	font-size: 5rem;
 	opacity: 0.4;
-	padding: 2rem 0;
 
 	@media (max-width: 517px){
 		height: 4rem;		
+	}
+
+	@media (max-width: 320px){
+		height: 3rem;		
 	}
 `;

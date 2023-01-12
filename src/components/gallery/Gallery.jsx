@@ -58,6 +58,10 @@ const Title = styled.h2`
 	@media (max-width: 517px){
 		font-size: 2.8rem;
 	} 
+
+	@media (max-width: 320px){
+		font-size: 1.8rem;
+	}
 `;
 const StrongTitle = styled.strong`
 	font-size: 2rem;
@@ -68,6 +72,10 @@ const StrongTitle = styled.strong`
 	@media (max-width: 517px){
 		font-size: 1.4rem;
 	} 
+
+	@media (max-width: 320px){
+		font-size: 1rem;
+	}
 `;
 const ClothesContainer = styled.div`
 	display: flex;
