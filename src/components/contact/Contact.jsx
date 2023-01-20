@@ -70,11 +70,11 @@ const Title = styled.h2`
 	} 
 
 	@media (max-width: 517px){
-		font-size: 2.8rem;
+		font-size: 2.4rem;
 	} 
 
 	@media (max-width: 320px){
-		font-size: 1.8rem;
+		font-size: 1.4rem;
 	} 
 `;
 const ServicesContent = styled.div`
