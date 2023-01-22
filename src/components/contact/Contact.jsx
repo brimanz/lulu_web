@@ -124,7 +124,7 @@ const ServicesIcon1 = styled(AiOutlineMail)`
 	}
 
 	@media (max-width: 320px){
-		height: 3rem;		
+		height: 2.6rem;		
 	}
 `;
 const ServicesIcon2 = styled(AiOutlineWhatsApp)`
@@ -136,7 +136,7 @@ const ServicesIcon2 = styled(AiOutlineWhatsApp)`
 	}
 
 	@media (max-width: 320px){
-		height: 3rem;		
+		height: 2.6rem;		
 	}
 `;
 const ServicesIcon3 = styled(AiOutlineInstagram)`
@@ -148,6 +148,6 @@ const ServicesIcon3 = styled(AiOutlineInstagram)`
 	}
 
 	@media (max-width: 320px){
-		height: 3rem;		
+		height: 2.6rem;		
 	}
 `;
